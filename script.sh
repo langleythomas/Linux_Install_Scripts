@@ -127,3 +127,6 @@ sudo apt update && sudo apt install kazam python3-cairo python3-xlib
 
 # Installing Forticlient
 # https://www.forticlient.com/repoinfo
+
+# Installing Spotify
+sudo apt update && sudo snap install spotify
