@@ -16,10 +16,6 @@ sudo apt update && sudo apt install build-essential libreadline-dev && sudo apt 
 echo "Installing snapd"
 sudo rm /etc/apt/preferences.d/nosnap.pref && sudo apt update && sudo apt install snapd
 
-# Installing GNOME System Monitor (for Linux 20)
-echo "Installing GNOME System Monitor (for Linux 20)"
-sudo apt update && sudo snap install gnome-system-monitor
-
 # Installing theme (Arc) and icon pack (Papirus)
 # Note: Go to themes, and update the necessary themes as follows.
 # Window borders: Arc-Darker
