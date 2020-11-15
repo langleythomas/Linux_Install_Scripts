@@ -45,7 +45,7 @@ sudo apt update && sudo apt-get install curl python-software-properties && curl 
 
 # Installing IntelliJ
 echo "Installing IntelliJ"
-sudo apt update && sudo snap install intellij-idea-classic
+sudo apt update && sudo snap install intellij-idea-ultimate --classic
 
 # Installing Pycharm
 echo "Installing Pycharm"
