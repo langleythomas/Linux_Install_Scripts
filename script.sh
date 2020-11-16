@@ -130,3 +130,7 @@ sudo apt update && sudo apt install kazam python3-cairo python3-xlib
 
 # Installing Spotify
 sudo apt update && sudo snap install spotify
+
+# Applets to Install
+# - Redshift
+# - CPU Temperature Indicator
