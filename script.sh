@@ -101,6 +101,7 @@ echo "Installing Discord"
 sudo apt update && sudo snap install discord
 
 # Installing Teams
+# Add Teams to Startup Applications
 echo "Installing Teams"
 sudo apt update && sudo snap install teams-for-linux
 
