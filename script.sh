@@ -121,7 +121,7 @@ echo "Installing and Setting Up MySQL"
 # Note: During secure installation, answer "Y" for all questions asked during secure installation.
 sudo apt update && sudo apt install mysql-server && mysql -V && sudo mysql_secure_installation
 
-# Installing Kazam
+# Installing SimpleScreenRecorder
 echo "Installing SimpleScreenRecorder"
 sudo apt install simplescreenrecorder
 
