@@ -10,7 +10,7 @@ sudo ubuntu-drivers autoinstall
 
 # Installing Lua
 echo "Installing Lua"
-sudo apt update && sudo apt install build-essential libreadline-dev && sudo apt install lua5.2
+sudo apt update && sudo apt install build-essential libreadline-dev && sudo apt install lua5.3	
 
 # Installing snapd
 echo "Installing snapd"
