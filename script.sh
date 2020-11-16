@@ -101,7 +101,6 @@ echo "Installing Discord"
 sudo apt update && sudo snap install discord
 
 # Installing Teams
-# Add Teams to Startup Applications
 echo "Installing Teams"
 sudo apt update && sudo snap install teams-for-linux
 
@@ -132,6 +131,10 @@ sudo apt install simplescreenrecorder
 # Installing Spotify
 sudo apt update && sudo snap install spotify
 
-# Applets to Install
+# Applets to Install:
 # - Redshift
 # - CPU Temperature Indicator
+
+# Add the following applications to Startup Applications:
+# - Teams
+# - WhatsApp
