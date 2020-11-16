@@ -122,8 +122,8 @@ echo "Installing and Setting Up MySQL"
 sudo apt update && sudo apt install mysql-server && mysql -V && sudo mysql_secure_installation
 
 # Installing Kazam
-echo "Installing Kazam"
-sudo apt update && sudo apt install kazam python3-cairo python3-xlib
+echo "Installing SimpleScreenRecorder"
+sudo apt install simplescreenrecorder
 
 # Installing Forticlient
 # https://www.forticlient.com/repoinfo
