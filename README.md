@@ -16,3 +16,6 @@ Things to Do After Installing Linux Mint:
   * Teams
   * WhatsApp
   * Spotify
+* Update the Panel:
+  * Set the panel height to 20, by right clicking on the panel, and clicking "Panel Settings".
+  * Set the panel to Auto-hide.
