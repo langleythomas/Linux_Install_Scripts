@@ -1,5 +1,3 @@
-# NOTE: Set the panel height to 20, by right clicking on the panel, and clicking "Panel Setting"
-
 # Upgrading and Updating Linux Mint
 echo "Upgrading and Updating Linux Mint"
 sudo apt update && sudo apt upgrade -y
@@ -125,11 +123,10 @@ sudo apt update && sudo apt install mysql-server && mysql -V && sudo mysql_secur
 echo "Installing SimpleScreenRecorder"
 sudo apt install simplescreenrecorder
 
-# Installing Forticlient
-# https://www.forticlient.com/repoinfo
-
 # Installing Spotify
+echo "Installing Spotify"
 sudo apt update && sudo snap install spotify
 
 # Installing Zoom
+echo "Installing Zoom"
 sudo apt update && sudo snap install zoom-client
