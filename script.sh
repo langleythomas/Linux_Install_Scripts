@@ -130,11 +130,3 @@ sudo apt install simplescreenrecorder
 
 # Installing Spotify
 sudo apt update && sudo snap install spotify
-
-# Applets to Install:
-# - Redshift
-# - CPU Temperature Indicator
-
-# Add the following applications to Startup Applications:
-# - Teams
-# - WhatsApp
