@@ -130,3 +130,6 @@ sudo apt install simplescreenrecorder
 
 # Installing Spotify
 sudo apt update && sudo snap install spotify
+
+# Installing Zoom
+sudo apt update && sudo snap install zoom-client
