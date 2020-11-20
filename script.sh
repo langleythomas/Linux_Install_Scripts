@@ -37,6 +37,10 @@ sudo apt update && sudo apt-get install build-essential gdb
 echo "Installing JavaScript Development Tools"
 sudo apt update && sudo apt-get install curl python-software-properties && curl -sL https://deb.nodesource.com/setup_14.x | sudo bash - && sudo apt update && sudo apt-get install nodejs && node -v && npm -v
 
+# Installing Golang
+echo "Installing Golang"
+sudo apt update && sudo snap install --classic go
+
 # Installing IntelliJ
 echo "Installing IntelliJ"
 sudo apt update && sudo snap install intellij-idea-ultimate --classic
