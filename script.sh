@@ -41,6 +41,10 @@ sudo apt update && sudo apt-get install curl python-software-properties && curl 
 echo "Installing Golang"
 sudo apt update && sudo snap install --classic go
 
+# Installing Java
+echo "Installing Java"
+sudo apt update && sudo apt install default-jdk && sudo apt install default-jre
+
 # Installing IntelliJ
 echo "Installing IntelliJ"
 sudo apt update && sudo snap install intellij-idea-ultimate --classic
