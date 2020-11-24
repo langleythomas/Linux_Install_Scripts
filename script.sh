@@ -37,6 +37,26 @@ sudo apt update && sudo apt-get install build-essential gdb
 echo "Installing JavaScript Development Tools"
 sudo apt update && sudo apt-get install curl python-software-properties && curl -sL https://deb.nodesource.com/setup_14.x | sudo bash - && sudo apt update && sudo apt-get install nodejs && node -v && npm -v
 
+# Installing python.
+sudo apt update && sudo add-apt-repository ppa:jonathonf/python-3.6 && sudo apt update && sudo apt-get install python3.6 && sudo apt update && python3 --version
+
+# Installing Pip
+sudo apt update && sudo apt install python3-pip && pip3 --version && sudo apt update
+
+# Installing Jupyterlab
+sudo apt update && pip3 installing jupyterlab && sudo apt update
+
+# Installing Jupyter Notebook
+#sudo apt update
+#pip3 install notebook
+#sudo apt update
+
+# Installing Tensorflow
+sudo apt update && pip3 install --upgrade pip && pip3 install tensorflow && pip3 show tensorflow && sudo apt update
+
+# Launching Jupyter Notebook (requires a restart)
+# jupyter notebook
+
 # Installing Golang
 echo "Installing Golang"
 sudo apt update && sudo snap install --classic go
