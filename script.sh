@@ -54,6 +54,9 @@ sudo apt update && pip3 installing jupyterlab && sudo apt update
 # Installing Tensorflow
 sudo apt update && pip3 install --upgrade pip && pip3 install tensorflow && pip3 show tensorflow && sudo apt update
 
+# Installing Matplotlib
+sudo apt update && sudo apt-get install python3-matplotlib
+
 # Launching Jupyter Notebook (requires a restart)
 # jupyter notebook
 
