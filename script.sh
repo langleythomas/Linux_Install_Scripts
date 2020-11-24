@@ -57,6 +57,9 @@ sudo apt update && pip3 install --upgrade pip && pip3 install tensorflow && pip3
 # Installing Matplotlib
 sudo apt update && sudo apt-get install python3-matplotlib
 
+# Installing Sklearn
+pip install -U scikit-learn
+
 # Launching Jupyter Notebook (requires a restart)
 # jupyter notebook
 
