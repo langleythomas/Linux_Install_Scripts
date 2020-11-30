@@ -146,7 +146,8 @@ sudo apt update && wget -q -O - https://dl.google.com/linux/linux_signing_key.pu
 
 # Installing Code::Blocks
 echo "Installing Code::Blocks"
-sudo apt update && sudo apt-get install build-essential && sudo apt-get install gdb && sudo apt-get install libwxgtk2.8-0 && sudo apt-get install libwxgtk2.8-dev && sudo apt-get install wx2.8-doc && sudo apt-get install codeblocks
+sudo apt-get install codeblocks
+
 
 # Installing and Setting Up MySQL
 echo "Installing and Setting Up MySQL"
