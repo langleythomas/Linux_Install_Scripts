@@ -60,7 +60,10 @@ sudo apt update && sudo apt-get install python3-matplotlib
 # Installing Sklearn
 pip install -U scikit-learn
 
-# Launching Jupyter Notebook (requires a restart)
+# Installing Gym
+sudo apt update && sudo -H pip3 install gym
+
+# Launching Jupyter Notebook (requires a restart of the machine)
 # jupyter notebook
 
 # Installing Golang
