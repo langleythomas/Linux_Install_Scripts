@@ -6,6 +6,9 @@ sudo apt update && sudo apt upgrade -y
 echo "Installing Necessary Drivers"
 sudo ubuntu-drivers autoinstall
 
+# Run this command if there are issues with the windows lagging the whole PC when dragged around.
+# nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }"
+
 # Installing Lua
 echo "Installing Lua"
 sudo apt update && sudo apt install build-essential libreadline-dev && sudo apt install lua5.3	
