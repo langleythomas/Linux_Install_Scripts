@@ -103,11 +103,6 @@ sudo apt update && sudo apt install git && git --version
 echo "Setting up Git"
 git config --global user.name "Thomas Langley" && git config --global user.email "thomas.moorhead.langley@gmail.com"
 
-# Installing Steam
-echo "Installing Steam"
-sudo apt update && sudo apt install steam
-# follow the steps here, after steam is installed: https://linuxhint.com/install_steam_linux_mint/
-
 # Installing Postman
 echo "Installing Postman"
 sudo apt update && sudo snap install postman
