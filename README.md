@@ -1,7 +1,7 @@
 # Linux_Install_Scripts
 
 To run, copy and paste this command in a folder containing the download of the GitHub file.
-`bash <(curl -Ls https://raw.githubusercontent.com/langleythomas/Linux_Install_Scripts/main/script.sh)`
+`bash <(curl -Ls https://raw.githubusercontent.com/langleythomas/Linux_Install_Scripts/main/zorin_os.sh)`
 
 Note when installing Linux Mint:
 * Boot mode in BIOS should be UEFI only.
