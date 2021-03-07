@@ -112,10 +112,6 @@ sudo apt update && sudo apt install steam
 echo "Installing Postman"
 sudo apt update && sudo snap install postman
 
-# Installing 7 Zip
-echo "Installing 7 Zip"
-sudo apt update && sudo apt-get install p7zip-full
-
 # Installing Discord
 echo "Installing Discord"
 sudo apt update && sudo snap install discord
