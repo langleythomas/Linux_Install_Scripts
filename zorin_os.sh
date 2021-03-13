@@ -83,17 +83,9 @@ sudo apt update && sudo snap install --classic code
 echo "Installing GoLand"
 sudo apt update && sudo snap install goland --classic
 
-# Installing Okular
-echo "Installing Okular"
-sudo apt update && sudo snap install okular
-
 # Installing VLC
 echo "Installing VLC"
 sudo apt update && sudo apt install vlc
-
-# Installing Sublime Text Editor
-echo "Installing Sublime Text Editor"
-sudo apt update && sudo apt-get install sublime-text
 
 # Installing Git
 echo "Installing Git"
@@ -139,3 +131,7 @@ sudo apt update && sudo snap install zoom-client
 # Installing Twine
 echo "Installing Twine"
 sudo apt update && sudo snap install twinejs
+
+# Installing Foxit Reader
+echo "Installing Foxit"
+sudo apt update && sudo apt upgrade && cd Downloads && wget https://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/linux/2.x/2.4/en_us/FoxitReader.enu.setup.2.4.4.0911.x64.run.tar.gz && tar -zxvf FoxitReader.enu.setup.2.4.4.0911.x64.run.tar.gz && ./FoxitReader.enu.setup.*.run
