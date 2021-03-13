@@ -135,3 +135,7 @@ sudo apt update && sudo snap install spotify
 # Installing Zoom
 echo "Installing Zoom"
 sudo apt update && sudo snap install zoom-client
+
+# Installing Twine
+echo "Installing Twine"
+sudo apt update && sudo snap install twinejs
