@@ -79,9 +79,14 @@ sudo apt update && sudo snap install pycharm-professional --classic
 echo "Installing Rider"
 sudo apt update && sudo snap install rider --classic
 
+# https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04
+# Installing Docker
+echo "Installing Docker"
+sudo apt update && sudo apt install docker.io
+
 # Installing Webstorm
 echo "Installing Webstorm"
-sudo snap install webstorm --classic
+sudo apt update && sudo snap install webstorm --classic
 
 # Installing Visual Studio Code
 echo "Installing Visual Studio Code"
