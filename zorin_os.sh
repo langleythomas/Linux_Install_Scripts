@@ -75,6 +75,14 @@ sudo apt update && sudo snap install intellij-idea-ultimate --classic
 echo "Installing Pycharm"
 sudo apt update && sudo snap install pycharm-professional --classic
 
+# Installing Rider
+echo "Installing Rider"
+sudo apt update && sudo snap install rider --classic
+
+# Installing Webstorm
+echo "Installing Webstorm"
+sudo snap install webstorm --classic
+
 # Installing Visual Studio Code
 echo "Installing Visual Studio Code"
 sudo apt update && sudo snap install --classic code
