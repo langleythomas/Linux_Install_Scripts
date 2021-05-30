@@ -79,6 +79,13 @@ sudo apt update && sudo snap install pycharm-professional --classic
 echo "Installing Rider"
 sudo apt update && sudo snap install rider --classic
 
+# Setting up .NET
+echo "Installing .NET"
+wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && sudo dpkg -i packages-microsoft-prod.deb
+sudo apt-get update; sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-get install -y dotnet-sdk-5.0
+sudo apt-get update; sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-get install -y aspnetcore-runtime-5.0
+sudo apt-get install -y dotnet-runtime-5.0
+
 # https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04
 # Installing Docker
 echo "Installing Docker"
