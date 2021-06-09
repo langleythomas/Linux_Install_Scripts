@@ -139,6 +139,7 @@ sudo apt update && wget -q -O - https://dl.google.com/linux/linux_signing_key.pu
 echo "Installing and Setting Up MySQL"
 # Note: During secure installation, answer "Y" for all questions asked during secure installation.
 sudo apt update && sudo apt install mysql-server && mysql -V && sudo mysql_secure_installation
+sudo systemctl enable mysql
 
 # Installing Spotify
 echo "Installing Spotify"
