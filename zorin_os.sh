@@ -135,12 +135,6 @@ sudo apt update && sudo snap install whatsapp-for-linux
 echo "Installing Chrome"
 sudo apt update && wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add - && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list && sudo apt update && sudo apt install -y google-chrome-stable
 
-# Installing and Setting Up MySQL
-echo "Installing and Setting Up MySQL"
-# Note: During secure installation, answer "Y" for all questions asked during secure installation.
-sudo apt update && sudo apt install mysql-server && mysql -V && sudo mysql_secure_installation
-sudo systemctl enable mysql
-
 # Installing Spotify
 echo "Installing Spotify"
 sudo apt update && sudo snap install spotify
